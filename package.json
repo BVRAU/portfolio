@@ -1,9 +1,9 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "bvrau-portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "BVRAU's Portfolio",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://bvrau.github.io/portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
@@ -32,8 +32,9 @@
     "eslint-plugin-react": "^7.31.7",
     "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "parcel": "^2.7.0",
+    "parcel": "^2.13.3",
     "prettier": "^2.7.1",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "svgo": "^3.3.2"
   }
 }
