@@ -48,23 +48,6 @@ const skillsList = [
 const detailOrQuote =
   "I am driven to increase utility in all of us around the world, with a view to grow utility and reduce friction by providing digital solutions to complex problems.";
 
-  const projectList = [
-    {
-      title: "Crewmath.",
-      description: "Swift app for improving Mental Dead Reckoning (MDR) skills in aviators",
-      url: "https://apps.apple.com/us/app/crewmath/id1671484249?platform=iphone",
-    },
-    {
-      title: "GoalKeeprs",
-      description: "Simple goal setting app to chase life's goals",
-      url: "https://apps.apple.com/us/app/goalkeepr/id6689503747?platform=iphone",
-    },
-    {
-      title: "Struth Social",
-      description: "COVID fact checking ML and DL model for use on Twitter tweets. Trained the DL model. Joint university project",
-      url: "https://github.com/Struth-Social-UNSW/ITProject2",
-    },
-  ];
 
 const About = () => {
   return (
@@ -93,21 +76,6 @@ const About = () => {
         >
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-
-        <h2>Projects</h2>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {projectList.map((project) => (
-            <li key={project}>{project}</li>
           ))}
         </ul>
         <hr />
