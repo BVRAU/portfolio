@@ -25,7 +25,7 @@
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps",
         "oderwat.indent-rainbow",
-        "ritwickdey.LiveServer",
+        "ritwickdey.LiveServer"
       ],
       "settings": {
         "emmet.includeLanguages": {
