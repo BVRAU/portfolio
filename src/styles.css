@@ -156,6 +156,10 @@ html {
   }
 }
 
+.slide-in-left {
+  animation: slideInLeft 1s ease-out;
+}
+
 @keyframes bounce {
   0%,
   20%,
