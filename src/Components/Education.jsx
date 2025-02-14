@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
     return(
-        <Section className="light" id="education">
+        <section className="light" id="education">
             <h2 style={{ textAlign: "center" }}>Education</h2>
             <div className="education">
                 <div>
@@ -10,7 +10,7 @@ const Education = () => {
                     <p>Bachelor</p>
                 </div>
             </div>
-        </Section>
+        </section>
     )
 }
 

@@ -21,6 +21,8 @@ import React from "react";
  */
 import image from "../images/night.jpg";
 
+import "../styles.css";
+
 const imageAltText = "desktop with books and laptop";
 
 /**
@@ -49,13 +51,12 @@ const projectList = [
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
+    <div className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            className="slide-in-left"
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
@@ -71,7 +72,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
